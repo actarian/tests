@@ -1,0 +1,35 @@
+﻿@page "/"
+@inject NavigationManager NavManager
+
+<strong>Blazor</strong>
+<div>count <span>@count</span></div>
+<div>index <span>@index</span></div>
+@foreach (var item in items) 
+{        
+    <Item item=@item OnClickCallback="@(e => onClick(item))"></Item>
+}
+
+@code {
+    private int count;
+    private int index;
+    private int[] items;
+    public Index() {
+        this.count = 1000;
+        this.index = -1;
+        // this.items = Enumerable.Repeat(1, this.count).Select((value, index) => index + 1).ToArray();
+    }
+    protected override void OnInitialized()
+    {
+        var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("count", out var _count))
+        {
+            this.count = Convert.ToInt32(_count);
+        }
+        this.items = Enumerable.Repeat(1, this.count).Select((value, index) => index + 1).ToArray();
+    }
+
+    private void onClick(int index)
+    {
+        this.index = index;
+    }
+}

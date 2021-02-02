@@ -1,0 +1,30 @@
+{
+  "name": "preact-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Luca Zampetti",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html -p 4001",
+    "build": "parcel build src/index.html --target browser --public-url ./preact-test/ --no-source-maps -d ../docs/preact-test"
+  },
+  "dependencies": {
+    "preact": "^10.3.2",
+    "preact-render-to-string": "^5.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "eslint": "^7.18.0",
+    "eslint-config-preact": "^1.1.0",
+    "parcel-bundler": "^1.12.4",
+    "preact-cli": "^3.0.0",
+    "sass": "^1.32.5"
+  },
+  "alias": {
+    "react": "preact-compat",
+    "react-dom": "preact-compat"
+  }
+}

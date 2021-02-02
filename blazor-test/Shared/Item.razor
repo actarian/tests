@@ -1,0 +1,9 @@
+﻿<div class="item" @onclick="OnClickCallback">@item</div>
+
+@code {
+    [Parameter]
+    public int item { get; set; }
+
+    [Parameter]
+    public EventCallback<MouseEventArgs> OnClickCallback { get; set; }
+}

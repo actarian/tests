@@ -1,0 +1,32 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Various frontend framework performance tests",
+  "keywords": [
+    "Angular",
+    "Blazor",
+    "Preact",
+    "React",
+    "Recks",
+    "RxComp",
+    "Svelte",
+    "Vue"
+  ],
+  "author": "Luca Zampetti",
+  "license": "MIT",
+  "scripts": {
+    "serve": "sirv docs --port 8080 --host --cors --single",
+    "angular-test": "lighthouse http://localhost:8080/angular-test --only-categories=performance --output html --output-path ./docs/reports/angular-test.html --view --chrome-flags=\"--headless --window-size=412,660\" ",
+    "blazor-test": "lighthouse http://localhost:5000 --only-categories=performance --output html --output-path ./docs/reports/blazor-test.html --view --chrome-flags=\"--headless --window-size=412,660\" ",
+    "preact-test": "lighthouse http://localhost:8080/preact-test --only-categories=performance --output html --output-path ./docs/reports/preact-test.html --view --chrome-flags=\"--headless --window-size=412,660\" ",
+    "react-test": "lighthouse http://localhost:8080/react-test --only-categories=performance --output html --output-path ./docs/reports/react-test.html --view --chrome-flags=\"--headless --window-size=412,660\" ",
+    "recks-test": "lighthouse http://localhost:8080/recks-test --only-categories=performance --output html --output-path ./docs/reports/recks-test.html --view --chrome-flags=\"--headless --window-size=412,660\" ",
+    "rxcomp-test": "lighthouse http://localhost:8080/rxcomp-test --only-categories=performance --output html --output-path ./docs/reports/rxcomp-test.html --view --chrome-flags=\"--headless --window-size=412,660\" ",
+    "svelte-test": "lighthouse http://localhost:8080/svelte-test --only-categories=performance --output html --output-path ./docs/reports/svelte-test.html --view --chrome-flags=\"--headless --window-size=412,660\" ",
+    "vue-test": "lighthouse http://localhost:8080/vue-test --only-categories=performance --output html --output-path ./docs/reports/vue-test.html --view --chrome-flags=\"--headless --window-size=412,660\" "
+  },
+  "devDependencies": {
+    "lighthouse": "^7.0.1",
+    "sirv-cli": "^1.0.11"
+  }
+}

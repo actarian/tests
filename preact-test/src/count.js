@@ -1,0 +1,8 @@
+export function getCount() {
+    let count = 1000;
+    if (typeof window !== 'undefined') {
+        const params = new URLSearchParams(window.location.search);
+        count = params.has('count') ? Number(params.get('count')) : count;
+    }
+    return count;
+}

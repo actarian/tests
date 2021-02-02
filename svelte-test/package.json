@@ -1,0 +1,25 @@
+{
+  "name": "vue-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Luca Zampetti",
+  "license": "MIT",
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "scripts": {
+    "start": "parcel ./src/index.html -p 4005",
+    "build": "parcel build src/index.html --target browser --public-url ./svelte-test/ --no-source-maps -d ../docs/svelte-test"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/polyfill": "^7.12.1",
+    "eslint": "^7.18.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "sass": "^1.32.5",
+    "svelte": "^3.32.1"
+  }
+}
