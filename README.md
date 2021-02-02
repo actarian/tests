@@ -48,3 +48,47 @@ Svelte       | [Svelte](https://actarian.github.io/tests/reports/svelte-test.htm
 Vue          | [Vue](https://actarian.github.io/tests/reports/vue-test.html) 
 ___
 
+## Running tests  
+  
+First install dependencies:
+
+```sh
+npm install
+```
+
+start server
+
+```sh
+npm run serve
+```
+
+launch single performance test
+
+```sh
+npm run angular-test
+```
+
+```sh
+npm run preact-test
+```
+
+```sh
+npm run react-test
+```
+
+```sh
+npm run recks-test
+```
+
+```sh
+npm run rxcomp-test
+```
+
+```sh
+npm run svelte-test
+```
+
+```sh
+npm run vue-test
+```
+

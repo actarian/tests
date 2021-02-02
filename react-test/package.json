@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html -p 4002",
-    "build": "parcel build src/index.html --target browser --public-url ./react-test/ --no-source-maps -d ../docs/react-test"
+    "build": "parcel build src/index.html --target browser --public-url /tests/react-test/ --no-source-maps -d ../docs/react-test"
   },
   "dependencies": {
     "react": "^17.0.1",

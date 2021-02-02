@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel ./src/index.html -p 4004",
-    "build": "parcel build src/index.html --target browser --public-url ./rxcomp-test/ --no-source-maps -d ../docs/rxcomp-test"
+    "build": "parcel build src/index.html --target browser --public-url /tests/rxcomp-test/ --no-source-maps -d ../docs/rxcomp-test"
   },
   "dependencies": {
     "rxcomp": "1.0.0-beta.20",

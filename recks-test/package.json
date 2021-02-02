@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html -p 4003",
-    "build": "parcel build src/index.html --target browser --public-url ./recks-test/ --no-source-maps -d ../docs/recks-test"
+    "build": "parcel build src/index.html --target browser --public-url /tests/recks-test/ --no-source-maps -d ../docs/recks-test"
   },
   "dependencies": {
     "recks": "0.0.14",

@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html -p 4006",
-    "build": "parcel build src/index.html --target browser --public-url ./vue-test/ --no-source-maps -d ../docs/vue-test"
+    "build": "parcel build src/index.html --target browser --public-url /tests/vue-test/ --no-source-maps -d ../docs/vue-test"
   },
   "dependencies": {
     "vue": "^2.6.12",
