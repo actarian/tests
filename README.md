@@ -21,9 +21,22 @@ ___
 
 ## Tests
 
+ framework   | demo                                                                                         | report   
+:------------|:---------------------------------------------------------------------------------------------|:------------------------------------------------------------|
+Angular 11   | [demo](https://actarian.github.io/tests/angular-test/)                                       | [report](https://actarian.github.io/tests/reports/angular-test.html) 
+Blazor       | For testing blazor you should run [dotnet](https://github.com/actarian/tests/blazor-test/)   | [report](https://actarian.github.io/tests/reports/blazor-test.html)  
+Preact       | [demo](https://actarian.github.io/tests/preact-test/)                                        | [report](https://actarian.github.io/tests/reports/preact-test.html) 
+React        | [demo](https://actarian.github.io/tests/react-test/)                                         | [report](https://actarian.github.io/tests/reports/react-test.html)
+Recks        | [demo](https://actarian.github.io/tests/recks-test/)                                         | [report](https://actarian.github.io/tests/reports/recks-test.html) 
+RxComp       | [demo](https://actarian.github.io/tests/rxcomp-test/)                                        | [report](https://actarian.github.io/tests/reports/rxcomp-test.html) 
+Svelte       | [demo](https://actarian.github.io/tests/svelte-test/)                                        | [report](https://actarian.github.io/tests/reports/svelte-test.html) 
+Vue          | [demo](https://actarian.github.io/tests/vue-test/)                                           | [report](https://actarian.github.io/tests/reports/vue-test.html) 
+___
+
+<!--
  framework   | demo
 :------------|:----------------------------------------------------------------------------------------------|
-Angular      | [Angular](https://actarian.github.io/tests/angular-test/) 
+Angular      | [Angular 11](https://actarian.github.io/tests/angular-test/) 
 Blazor       | For testing blazor you should run [dotnet](https://github.com/actarian/tests/blazor-test/) 
 Preact       | [Preact](https://actarian.github.io/tests/preact-test/) 
 React        | [React](https://actarian.github.io/tests/react-test/) 
@@ -32,13 +45,14 @@ RxComp       | [RxComp](https://actarian.github.io/tests/rxcomp-test/)
 Svelte       | [Svelte](https://actarian.github.io/tests/svelte-test/) 
 Vue          | [Vue](https://actarian.github.io/tests/vue-test/) 
 ___
+-->
 
-
+<!--
 ## Reports
 
  framework   | report
 :------------|:----------------------------------------------------------------------------------------------|
-Angular      | [Angular](https://actarian.github.io/tests/reports/angular-test.html) 
+Angular      | [Angular 11](https://actarian.github.io/tests/reports/angular-test.html) 
 Blazor       | [Blazor](https://actarian.github.io/tests/reports/blazor-test.html) 
 Preact       | [Preact](https://actarian.github.io/tests/reports/preact-test.html) 
 React        | [React](https://actarian.github.io/tests/reports/react-test.html) 
@@ -47,6 +61,7 @@ RxComp       | [RxComp](https://actarian.github.io/tests/reports/rxcomp-test.htm
 Svelte       | [Svelte](https://actarian.github.io/tests/reports/svelte-test.html) 
 Vue          | [Vue](https://actarian.github.io/tests/reports/vue-test.html) 
 ___
+-->
 
 ## Running tests  
   
