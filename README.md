@@ -2,20 +2,20 @@
 
 Various frontend framework performance tests.  
 Frameworks involved: 
-[Angular](https://angular.io/) 
-[Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor) 
-[Preact](https://preactjs.com/) 
-[React](https://it.reactjs.org/) 
-[Recks](https://recks.gitbook.io/recks/) 
-[RxComp](https://github.com/actarian/rxcomp) 
-[Svelte](https://svelte.dev/) 
-[Vue](https://vuejs.org/) 
+[Angular](https://angular.io/), 
+[Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor), 
+[Preact](https://preactjs.com/), 
+[React](https://it.reactjs.org/), 
+[Recks](https://recks.gitbook.io/recks/), 
+[RxComp](https://github.com/actarian/rxcomp), 
+[Svelte](https://svelte.dev/), 
+[Vue](https://vuejs.org/). 
 ___
 
 
 ## Performances
 In order to compare performances between frameworks the same app has been developed.  
-Using a repeater an ItemComponent instance has been instantiated 1000 times and attached with an event listener for state updating.  
+Using a repeater a component has been instantiated 2000 times and attached with an event listener for state updating.  
 ___
 
 
@@ -33,6 +33,12 @@ Svelte       | [demo](https://actarian.github.io/tests/svelte-test/)            
 Vue          | [demo](https://actarian.github.io/tests/vue-test/)                                           | [report](https://actarian.github.io/tests/reports/vue-test.html) 
 ___
 
+## Optional parameter
+Every application support an optional query parameter count to change the initial repeater count value.
+
+[https://actarian.github.io/tests/react-test/?count=5000](https://actarian.github.io/tests/react-test/?count=5000)
+
+___
 <!--
  framework   | demo
 :------------|:----------------------------------------------------------------------------------------------|
