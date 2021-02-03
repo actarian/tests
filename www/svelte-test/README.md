@@ -1,4 +1,4 @@
-# vue-test
+# svelte-test
 
 Empty project.
 
