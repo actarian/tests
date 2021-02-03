@@ -21,16 +21,16 @@ ___
 
 ## Tests
 
- framework   | src                                                                   | demo                                                                             | report   
-:------------|:----------------------------------------------------------------------|:---------------------------------------------------------------------------------|:----------------------------------------------------------------------|
-Angular 11   | [src](https://github.com/actarian/tests/tree/main/www/angular-test/)  | [demo](https://actarian.github.io/tests/angular-test/)                           | [report](https://actarian.github.io/tests/reports/angular-test.html) 
-Blazor       | [src](https://github.com/actarian/tests/tree/main/www/blazor-test/)   | requires [dotnet](https://github.com/actarian/tests/tree/main/www/blazor-test/)  | [report](https://actarian.github.io/tests/reports/blazor-test.html)  
-Preact       | [src](https://github.com/actarian/tests/tree/main/www/preact-test/)   | [demo](https://actarian.github.io/tests/preact-test/)                            | [report](https://actarian.github.io/tests/reports/preact-test.html) 
-React        | [src](https://github.com/actarian/tests/tree/main/www/react-test/)    | [demo](https://actarian.github.io/tests/react-test/)                             | [report](https://actarian.github.io/tests/reports/react-test.html)
-Recks        | [src](https://github.com/actarian/tests/tree/main/www/recks-test/)    | [demo](https://actarian.github.io/tests/recks-test/)                             | [report](https://actarian.github.io/tests/reports/recks-test.html) 
-RxComp       | [src](https://github.com/actarian/tests/tree/main/www/rxcomp-test/)   | [demo](https://actarian.github.io/tests/rxcomp-test/)                            | [report](https://actarian.github.io/tests/reports/rxcomp-test.html) 
-Svelte       | [src](https://github.com/actarian/tests/tree/main/www/svelte-test/)   | [demo](https://actarian.github.io/tests/svelte-test/)                            | [report](https://actarian.github.io/tests/reports/svelte-test.html) 
-Vue          | [src](https://github.com/actarian/tests/tree/main/www/vue-test/)      | [demo](https://actarian.github.io/tests/vue-test/)                               | [report](https://actarian.github.io/tests/reports/vue-test.html) 
+ framework   | score | src                                                                   | demo                                                                             | report   
+:------------|:------|:----------------------------------------------------------------------|:---------------------------------------------------------------------------------|:----------------------------------------------------------------------|
+Angular 11   |     30| [src](https://github.com/actarian/tests/tree/main/www/angular-test/)  | [demo](https://actarian.github.io/tests/angular-test/)                           | [report](https://actarian.github.io/tests/reports/angular-test.html) 
+Blazor       |     27| [src](https://github.com/actarian/tests/tree/main/www/blazor-test/)   | requires [dotnet](https://github.com/actarian/tests/tree/main/www/blazor-test/)  | [report](https://actarian.github.io/tests/reports/blazor-test.html)  
+Preact       |    100| [src](https://github.com/actarian/tests/tree/main/www/preact-test/)   | [demo](https://actarian.github.io/tests/preact-test/)                            | [report](https://actarian.github.io/tests/reports/preact-test.html) 
+React        |     99| [src](https://github.com/actarian/tests/tree/main/www/react-test/)    | [demo](https://actarian.github.io/tests/react-test/)                             | [report](https://actarian.github.io/tests/reports/react-test.html)
+Recks        |     56| [src](https://github.com/actarian/tests/tree/main/www/recks-test/)    | [demo](https://actarian.github.io/tests/recks-test/)                             | [report](https://actarian.github.io/tests/reports/recks-test.html) 
+RxComp       |     84| [src](https://github.com/actarian/tests/tree/main/www/rxcomp-test/)   | [demo](https://actarian.github.io/tests/rxcomp-test/)                            | [report](https://actarian.github.io/tests/reports/rxcomp-test.html) 
+Svelte       |    100| [src](https://github.com/actarian/tests/tree/main/www/svelte-test/)   | [demo](https://actarian.github.io/tests/svelte-test/)                            | [report](https://actarian.github.io/tests/reports/svelte-test.html) 
+Vue          |     99| [src](https://github.com/actarian/tests/tree/main/www/vue-test/)      | [demo](https://actarian.github.io/tests/vue-test/)                               | [report](https://actarian.github.io/tests/reports/vue-test.html) 
 ___
 
 ## Optional parameter
