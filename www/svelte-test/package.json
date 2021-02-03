@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "start": "parcel ./src/index.html -p 4005",
-    "build": "parcel build src/index.html --target browser --public-url /tests/svelte-test/ --no-source-maps -d ../docs/svelte-test"
+    "build": "parcel build src/index.html --target browser --public-url /tests/svelte-test/ --no-source-maps -d ../../docs/svelte-test"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
