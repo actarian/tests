@@ -3,11 +3,9 @@ import { useState } from 'preact/hooks';
 import { getCount } from '../count';
 import { Item } from './item';
 
-!h;
-
 const App = () => {
-  const count = getCount();
-	const [index, setIndex] = useState(-1);
+    const count = getCount();    
+	const [index, setIndex] = useState(-1);	
 	return (
 	<div id="app">
 		<strong>Preact</strong>

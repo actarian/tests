@@ -2,8 +2,7 @@
   "rules": {},
   "env": {
     "es6": true,
-    "browser": true,
-    "node": true
+    "browser": true
   },
   "parserOptions": {
     "ecmaVersion": 2018,
@@ -12,10 +11,7 @@
       "jsx": true
     }
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
-  ],
+  "extends": "eslint:recommended",
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"

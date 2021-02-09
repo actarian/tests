@@ -2,8 +2,7 @@
   "rules": {},
   "env": {
     "es6": true,
-    "browser": true,
-    "node": true
+    "browser": true
   },
   "parserOptions": {
     "ecmaVersion": 2018,
